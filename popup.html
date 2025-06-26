@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Popup</title>
+  <style>
+    body {
+      width: 50vw;
+      height: 50vh;
+      overflow: visible;
+      padding: 15px;
+      font-family: sans-serif;
+      margin: 0;
+    }
+    button {
+      display: flex;
+      width: 70%;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 4px;
+      justify-content: center;
+    }
+    input[type="text"] {
+      width: 70%;
+      padding: 8px;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 10px;
+    }
+    li {
+      background: #f0f0f0;
+      padding: 6px 10px;
+      margin-bottom: 5px;
+      border-radius: 4px;
+    } 
+    html, body {
+        width: 250px;
+        height: auto;
+        overflow: visible;
+}
+.centered{
+  margin-left: 10px;
+}
+
+  </style>
+</head>
+<body>
+ <div class="centered">
+  <h3 style="margin: 0; font-size: 16px;">Dark Mode & Blocker</h3>
+
+  <button id="darkmode">Toggle Dark Mode</button>
+
+  <input type="text" id="siteInput" placeholder="Enter site (e.g., facebook.com)">
+  <button id="blockSite">Block</button>
+
+  <ul id="blockedList"></ul>
+</div>
+  <script src="popup.js"></script>
+</body>
+</html>

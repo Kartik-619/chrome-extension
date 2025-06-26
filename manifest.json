@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "personal_ext",
+  "version": "1.0",
+  "description": "Block sites and enable dark mode",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "blocksite1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
