@@ -16,5 +16,12 @@ This project started with curiosity and ended with confidence. Here’s what I e
 - Designing a clean popup with HTML/CSS/JS<br>
 <hr>
 <h2>🧩 Chrome APIs Use</h2>
-
+<img src="assets/asset.png" width="400"/>
+<hr>
+<h1> How to Use</h1>
+- Clone or download the repo
+- Visit chrome://extensions/ in Chrome
+- Enable Developer Mode
+- Click Load Unpacked and select the extension folder
+- Open any website → Click the extension icon → Toggle dark mode or block domains
 
