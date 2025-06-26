@@ -16,7 +16,7 @@ This project started with curiosity and ended with confidence. Here’s what I e
 - Designing a clean popup with HTML/CSS/JS<br>
 <hr>
 <h2>🧩 Chrome APIs Use</h2>
-<img src="assets/asset.png" width="400"/>
+<img src="asset/asset.png" width="400"/>
 <hr>
 <h1> How to Use</h1>
 - Clone or download the repo
